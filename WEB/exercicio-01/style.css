@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+.titulo{
+    text-align: center;
+}
+.minhaImg{
+    border-radius: 50rem;
+    position: relative;
+    top: 1.5rem;
+    right: 1rem;
+}
+
+.corpo{
+    position: relative;
+    top: 3rem;
+}
+
+.imgPug{
+    position: relative;
+    top: 5rem;
+    left: 12rem;
+    width: 20rem;
+    border-radius: 20px;
+}
+
+.folha{
+    position: absolute;
+    top: 40mm;
+    left: 60rem;
+    width: 210mm;
+    height: 240mm;
+    margin: 20mm; 
+    padding: 10mm; 
+    border-radius: 10px;
+    box-sizing: border-box; 
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    font-family: Arial;
+    align-items: center;
+}
