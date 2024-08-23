@@ -1,0 +1,18 @@
+body{
+    /* background-color: black; */
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+.titulo {
+    color: blue;
+    margin: 0;
+    padding: 20px 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
