@@ -1,7 +1,117 @@
-body {
+body{
     background-color: #000000;
+    color: #ffffff;
 }
 
-.container-rpg {
+/* Home */
+
+.menu-rpg, a{
     color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+    line-height: 25px;
+}
+
+.container-menu h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+}
+
+.container-raca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    text-align: center;
+    padding: 15px;
+}
+
+.raca img{
+    border-radius: 10px;
+    width: 150px;
+}
+
+.raca a{
+    color: blue;
+    text-decoration: none;
+    font-size: 16.5px;
+}
+
+.raca p{
+    padding: 15px;
+    font-weight: bold;
+
+}
+
+/* Habilidades */
+
+.cabeca-habi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.cabeca-habi img{
+    width: 150px;
+}
+
+.habilidade h1{
+    padding: 15px;
+}
+
+.habilidade img{
+    border-radius: 10px;
+}
+
+.raca-habi{
+    list-style: circle;
+}
+
+.sobre-raca a{
+    font-size: 30px;
+}
+
+/* blog */
+
+.menu-rpg-blog{
+    text-align: center;
+}
+
+.menu-rpg-blog button {
+    background-color: rgb(41, 120, 240);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+}
+
+.container-rpg-blog a {
+    font-size: 20px;
+}
+
+.menu-rpg-blog img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+/* Nova postagem do blog */
+
+.add-branco {
+    background-color: #ffffff;
+}
+
+.container-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.add {
+    flex-direction: row;
+    flex-wrap: wrap;
 }

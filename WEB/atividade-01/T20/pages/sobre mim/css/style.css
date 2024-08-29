@@ -1,0 +1,158 @@
+/* Estilos padrão para dispositivos móveis */
+:root{
+    --titulo: 35px;
+    --font-size: 16px;
+}
+
+.container-menu{
+    background-color: rgb(0, 0, 0);
+    width: 384px;
+    margin: 10px;
+    border: 3px white solid;
+    border-radius: 15px;
+    color: white;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+
+}
+
+.menu {
+    margin: 10px;
+}
+
+.titulo {
+    margin: 0;
+    font-size: var(--titulo);
+}
+
+#imagem_pug {
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    border: rgb(71, 71, 71) solid 5px;
+}
+
+p, li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: var(--font-size);
+    list-style: none;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-github {
+    width: auto;
+    height: 2.5rem;
+    background-color: rgb(69, 117, 248);
+    border-radius: 8px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+button {
+    width: 21rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+/* Estilos para dispositivos de desktop */
+@media only screen and (min-width: 769px) {
+
+        
+    :root{
+        --titulo: 35px;
+        --font-size: 16px;
+    }
+    body {
+        background-color: rgb(73, 73, 73);
+    }
+
+    .container-menu{
+        background-color: rgb(0, 0, 0);
+        width: 400px;
+        margin: 10rem auto;
+        padding: 0 20px 20px 20px;
+        border: 3px white solid;
+        border-radius: 15px;
+        color: white;
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .menu {
+        margin: 10px;
+    }
+
+    .titulo {
+        margin: 0;
+        font-size: var(--titulo);
+        text-align: center;
+    }
+
+
+    #imagem_pug {
+        margin: 30px auto;
+        padding: 2px;
+        border-radius: 100%;
+        width: 300px;
+        height: 300px;
+        border: rgb(71, 71, 71) solid 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    p, li {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: var(--font-size);
+        list-style: none;
+    }
+
+    a {
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .btn-github{
+        width: auto;
+        height: 2.5rem;
+        background-color: rgb(69, 117, 248);
+        border-radius: 8px;
+        border: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    button {
+        width: 24rem;
+    }
+
+/* PAGINA "MEUS HOBBIES" */
+
+
+    .MH-ul li {
+        font-size: 25px;
+    }
+
+    .titulo-oque, .titulo-meu{
+        font-size: 45px;
+    }
+
+}
