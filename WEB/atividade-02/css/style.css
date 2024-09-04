@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+
+
+/* cabeçalho */
+.container_cabeca {
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 90px;
+    border-radius: 10px 0px 0px 0px;
+    color: white;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.cabeca {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    height: 60%;
+    width: 100%;
+}
+
+.cabeca h1, h3 {
+    padding: 10px;
+    padding-top: 25px;
+}
+
+.menu_logo h1{
+    color: white;
+}
+
+.cabeca img {
+    margin: 25px 0px 0px 10px;
+    border-radius: 50%;
+}
+
+.menu_cabeca {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    margin-left: auto;
+    height: 40px;
+    justify-content: end;
+    width: 30%;
+}
+
+.menu_cabeca h3 {
+    padding-right: 45px;
+}
+
+
+/* corpo/card */
+
+.container_card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.container_card div{
+    padding: 10px;
+}
+
+.container_card .card-01, .card-02, .card-03, .card-04 {
+    text-align: center;
+    border: solid gray 1px;
+    border-radius: 5px;
+}
+
+.container_rodape {
+    padding: 40px 0px 0px 30px;
+}
+
+.container_rodape h1, p{
+    padding: 0px 0px 20px 0px;
+}
+
+.container_card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
