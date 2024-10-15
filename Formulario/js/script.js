@@ -6,7 +6,7 @@ const email = document.getElementById("email")
 const senha = document.getElementById("senha")
 const senha2 = document.getElementById("senha2")
 
-
-form.addEventListener("submit", function(){
-    
+// esta submentento e o event não "recarrega" a pagina
+form.addEventListener("submit", function(event){
+    event.preventDefault()
 })
