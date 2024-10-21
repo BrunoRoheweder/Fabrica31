@@ -46,6 +46,7 @@ function CheckSize(input,max,min){
 function CheckPassword(senha,senha2){
     if(senha.value !== senha2.value){
         ShowError(senha2,"As senhas não são iguais")
+        ShowError(senha,"As senhas não são iguais")
         return false
     }
     return true
