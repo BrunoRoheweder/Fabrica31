@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: #333;
+    color: white;
+}
 .cabeca {
     display: flex;
     justify-content: space-around;
@@ -11,11 +16,6 @@
 
 .container_cabeca {
     width: 75%;
-}
-
-header {
-    background-color: #333;
-    color: white;
 }
 
 .logo img {
@@ -29,6 +29,25 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.nav-links-usuario {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links-usuario li {
+    margin: 0;
+}
+
+.nav-links-usuario a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
 }
 
 .nav-links li {
@@ -72,9 +91,7 @@ header {
         display: flex;
     }
 
-    .menu-toggle.active + .nav-links {
-        display: flex;
-    }
+
 }
 
 /* Responsividade para telas ainda menores que 480px */
