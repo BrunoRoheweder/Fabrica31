@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --laranja: #FC671D;
+    --magenta: #D34AF4;
+    --cinza: #faf6f7;
+    --cinza-escuro:#888;
+    --ciano: #0BC0D3;
+    --base: #2c006a;
+    --branco: #fff;
+    --preto: #000;
+    --sombra-base:rgba(44, 0, 106, 0.4);
+    --sombra-preta:rgba(0, 0, 0, 0.4);
+}
+
+.menu-superior{
+    position: fixed;
+    background-color: var(--branco);
+    box-shadow: 10px 4px 8px var(--sombra-preta);
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+    z-index: 1;
+}
+
+.container_relatorio {
+    display: flex;
+    height: 45vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.grup_relatorio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.grup_relatorio .relatorio {
+    margin-right: 180px;
+}
+
+.grup_relatorio .relatorio_button {
+    margin-left: 180px;
+}
+
+
+.relatorio hr{
+    width: 33px;
+    border: 1px solid #FC671D;
+}
+
+.relatorio_button img {
+    width: 20px;
+    height: 20px;
+    margin: 7px 7px 7px 4px;
+}
+
+.relatorio_button button{
+    border: none;
+    border-radius: 10px;
+    background-color: #D34AF4;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.relatorio_button a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
