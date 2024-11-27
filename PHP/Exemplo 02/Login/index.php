@@ -16,7 +16,6 @@
     </form>
 </body>
 </html>
-
 <?php
 
 // Inclui o controlador de login para processar a autenticação
@@ -41,6 +40,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if ($loginController->Login($nome, $senha)) {
             // Se o login for bem-sucedido, redireciona o usuário para a página inicial
             header("location: ./pages/home/index.php");
+     
+     
             exit(); // Evita que o código continue executando após o redirecionamento
         } else {
             // Se o login falhar, exibe uma mensagem de erro

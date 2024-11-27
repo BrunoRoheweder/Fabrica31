@@ -16,14 +16,14 @@ class LoginController
     }
 
     // Método responsável por realizar o login
-    public function Login($nome, $senha){
+    public function Login($nomeQueVeioDoFront, $senha){
         try {
             // Prepara a consulta SQL para verificar se o nome e a senha coincidem com um usuário no banco de dados
-            $sql = "SELECT * FROM usuario WHERE nome = :nome AND senha = :senha";
+            $sql = "SELECT * FROM usuario WHERE nome = :aws AND senha = :senha";
             // Prepara a consulta SQL com a conexão do banco de dados
             $db = $this->conn->prepare($sql);
             // Vincula os parâmetros da consulta SQL com os valores fornecidos para nome e senha
-            $db->bindParam(":nome", $nome);
+            $db->bindParam(":aws", $nomeQueVeioDoFront);
             $db->bindParam(":senha", $senha);
             // Executa a consulta no banco de dados
             $db->execute();
@@ -36,6 +36,7 @@ class LoginController
                 session_start();
                 // Armazena o ID do usuário na sessão para uso posterior
                 $_SESSION["id_usuario"] = $usuario[0]["id"];
+                $_SESSION["nome"] = $usuario[0]["id"];
                 // Retorna verdadeiro para indicar que o login foi bem-sucedido
                 return true;
             } else {
@@ -49,4 +50,3 @@ class LoginController
         }
     }
 }
- 
